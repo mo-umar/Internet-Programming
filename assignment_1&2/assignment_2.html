@@ -1,0 +1,88 @@
+<!--
+Mohammad Umar
+CS4720-Internet Programming
+-->
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8" >
+    <meta name="viewport" content="width=device-width ,initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Assignment 2</title>
+</head>
+<body>
+
+    <div id="navigation" class="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="assignments.html">Assignments</a></li>
+        </ul>
+    </div>
+    <header class='headingBG'>
+        <p class="headtext">Mohammad Umar</p>
+        <p class='subtext'>CS 4720-Internet Programming</p>
+    </header>
+    <div id="title" class="pagetitle">
+        <h1>Assignments 2</h1>
+    </div>
+
+    <div id="squareNumber" class="scriptContent">
+        <h2>Square Numbers</h2>
+        <input type="number" id="squareNum" class="userInput">
+        <button id="square" class="userInput">Result</button><br> 
+        <div class="Result">
+           Result: <p style="display: inline;" id="answer"></p>
+        </div>
+    </div>
+
+    <div id="fixstarts" class="scriptContent">
+        <h2>Fix Start</h2>
+        <input type="text" id="fix_start_input" class="userInput">
+        <button id="fix_start" class="userInput">Result</button><br>
+        <div class="Result">
+         Result: <p style="display: inline;" id="fix_start_result"></p>   
+        </div>     
+    </div>
+
+    <div id="notBad" class="scriptContent">
+        <h2>Not Bad</h2>
+        <input type="text" id="notBadInput" class="userInput">
+        <button id="notBad" class="userInput">Result</button><br>
+        <div class="Result">
+         Result: <p style="display: inline;" id="notBadAnswer"></p>   
+        </div>     
+    </div>
+ 
+    <div id="cellCreateSort" class="scriptContent">
+        <h2>Cell Creating And Sorting</h2>
+          <div id="cells">
+              <table id="cell_field">
+                <tr>
+                  <th>Item #</th>
+                  <th>Input</th>
+                  <th>Length</th>
+                </tr>
+                <tr>
+                </tr>
+              </table>
+    
+            <div id="operationsButtons">
+              <button type="button" onclick="addCell()">Add Cell</button>
+              <button type="button" onclick="removeCell()">Remove Cell</button>
+              <button type="button" onclick="sortCells()">Sort</button>
+            </div>
+        </div>
+    </div>
+      
+    <!--JavaScript Files-->
+    <script src="squareNumber.js"></script>
+    <script src="fixStart.js"></script>
+    <script src="notBad.js"></script>
+    <script src="cellCreating.js"></script>
+
+    <footer class="footer">
+        <br>
+        <p>&copy; 2021 This website is created for Educational Purposes.</p>
+    </footer>
+   
+</body>
+</html>

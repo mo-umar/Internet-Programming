@@ -1,0 +1,167 @@
+/*
+Mohammad Umar
+CS4720-Internet Programming
+*/
+body {
+background-color:lightblue;
+margin:0;
+font-family:'Times New Roman', Times, serif;
+font-size:  22px;
+}
+
+.mainpage{
+    margin-bottom:40px;
+    margin-left:200px;
+    margin-right:200px;
+}
+
+#my_pic{
+    float:right;
+}
+
+.mainpage img{
+    width: 200px;
+    height: 200px;
+}
+
+#marvel_pic{
+    float:right;
+}
+
+.mainpage button{
+  background-color: #87c6df;
+  border: #026e99;
+  border-style: groove;
+  color: rgb(0, 0, 0);
+  padding: 18px 30px;
+  text-align: center;
+  display: inline-block;
+  font-size: 20px;
+  cursor: pointer;
+  width: 200px;
+}
+
+.mainpage button:hover{
+    background-color: #026e99;
+    color: rgb(0, 0, 0);
+}
+
+.navbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#4992af;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar li{
+    float:left;
+}
+
+.navbar li a{
+    display:block;
+    color:black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar li a:hover{
+    background-color:rgb(129, 183, 201);
+}
+
+.headingBG {
+    background-image: url("headerImg.jpg");
+    background-size:cover;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    width: 100%;
+}
+.headtext {
+    font-family: 'Times New Roman', Times, serif;
+    font-size:120px;
+    margin-bottom: 10px;
+    margin-left: 40px;
+    color: rgb(180, 220, 243);
+    text-align:center;
+}
+.subtext {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 50px;
+    margin-top: 10px;
+    margin-left: 40px;
+    color: rgb(180, 220, 243);
+    text-align:center;
+}
+
+.footer {
+    background-color:#00435e;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    font-size:20px;
+    padding-bottom: 15px;
+}
+
+.pagetitle h1 {
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    font-size:80px;
+}
+
+.assignmentsLinks ul {
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 30px;
+    
+}
+
+.assignmentsLinks a{
+    display: inline-block;
+    text-decoration: none;
+    color:black;
+}
+
+.assignmentsLinks a:hover {
+    background-color:#026e99;
+}
+
+.scriptContent{
+    margin-bottom:40px;
+    margin-left:200px;
+    margin-right:200px;
+}
+
+.userInput{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+}
+
+input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+.Result{
+    display: inline;
+    width: fit-content;
+    border-style: solid;
+    border-width: 4px;
+    border-color: rgb(100, 137, 167);
+    font-family:'Times New Roman', Times, serif;
+}
+
+#cells {
+    width: 380px;
+    padding-bottom: 15px;
+    border-style: solid;
+    border-width: 8px;
+    border-color: rgb(35, 137, 221);
+    font-family:'Times New Roman', Times, serif;
+}
+
+#operationsButtons {
+    margin-left:50px;
+    margin-top: 20px;
+}

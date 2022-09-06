@@ -1,2 +1,2 @@
-# internet-programming
+# Internet-Programming
 Internet Programming Class Assignments
